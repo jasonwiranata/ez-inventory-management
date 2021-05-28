@@ -1,0 +1,2 @@
+rootProject.name = "EZ Inventory Management"
+include ':app'
