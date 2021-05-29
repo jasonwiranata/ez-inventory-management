@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1099125151711",
+    "project_id": "smart-arc-313102",
+    "storage_bucket": "smart-arc-313102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099125151711:android:d112df43f485662a22966a",
+        "android_client_info": {
+          "package_name": "com.b21cap0380.ezinventorymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRXHohCCh9SR_lbDROfTcyK7asEpEzfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
