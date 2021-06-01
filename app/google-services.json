@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "1099125151711",
+    "firebase_url": "https://smart-arc-313102-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "smart-arc-313102",
     "storage_bucket": "smart-arc-313102.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "1099125151711-fg1iekdgvop2ht4oo98411nm57ocqn89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.b21cap0380.ezinventorymanagement",
+            "certificate_hash": "c9e286c6979c4661a78475e58753071daef4400a"
+          }
+        },
         {
           "client_id": "1099125151711-uhb2ssbuugloh2d2qe1b0t42errnohtt.apps.googleusercontent.com",
           "client_type": 3

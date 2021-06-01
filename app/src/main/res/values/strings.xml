@@ -1,11 +1,6 @@
 <resources>
     <string name="app_name">EZ Inventory Management</string>
-    <string name="menu_home">Home</string>
-    <string name="menu_favorite">Production</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_sales">Sales</string>
     <string name="splash_image_preview">Splash Screen Icon</string>
-    <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="GMail">GMail</string>
     <string name="login">LOGIN</string>
@@ -19,14 +14,18 @@
     <string name="inventory_image">Icon Button Inventory</string>
     <string name="transaction_image">Icon Button Transaction</string>
     <string name="signout">Sign Out</string>
-    <string name="productionId">Production ID</string>
-    <string name="productionDate">Production Date</string>
-    <string name="materialName">Material Name</string>
-    <string name="materialUsed">Material Used</string>
-    <string name="materialUnit">Material Unit</string>
-    <string name="productId">Product ID</string>
-    <string name="productName">Product Name</string>
-    <string name="productQty">Product Qty</string>
-    <string name="productUnit">Product Unit</string>
+    <string name="productionId">Production ID:</string>
+    <string name="productionDate">Production Date:</string>
+    <string name="materialName">Material Name:</string>
+    <string name="materialUsed">Material Used:</string>
+    <string name="materialUnit">Material Unit:</string>
+    <string name="productId">Product ID:</string>
+    <string name="productName">Product Name:</string>
+    <string name="productQty">Product Qty:</string>
+    <string name="productUnit">Product Unit:</string>
     <string name="submit">SUBMIT</string>
+    <string name="salesId">Sales ID:</string>
+    <string name="transactionId">Transaction ID:</string>
+    <string name="transactionDate">Transaction Date:</string>
+    <string name="productSold">Product Sold:</string>
 </resources>

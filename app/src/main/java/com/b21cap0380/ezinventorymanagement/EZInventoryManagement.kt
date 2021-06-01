@@ -7,6 +7,7 @@ import com.google.firebase.appcheck.safetynet.SafetyNetAppCheckProviderFactory
 
 class EZInventoryManagement: Application() {
     override fun onCreate() {
+
         FirebaseApp.initializeApp( this)
         val firebaseAppCheck = FirebaseAppCheck.getInstance()
         firebaseAppCheck.installAppCheckProviderFactory(

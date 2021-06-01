@@ -1,10 +1,11 @@
 package com.b21cap0380.ezinventorymanagement.ui.home
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.b21cap0380.ezinventorymanagement.R
 import com.b21cap0380.ezinventorymanagement.databinding.ActivityHomeBinding
 import com.b21cap0380.ezinventorymanagement.ui.inventory.InventoryActivity
@@ -63,6 +64,7 @@ class HomeActivity : AppCompatActivity() {
             Firebase.auth.signOut()
             val fIntent = Intent(this, LoginActivity::class.java)
             startActivity(fIntent)
+            Toast.makeText(this, "LOGOUT SUCCESSFUL", Toast.LENGTH_SHORT).show()
         }
         return super.onOptionsItemSelected(item)
     }

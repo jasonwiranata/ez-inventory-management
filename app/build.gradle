@@ -80,18 +80,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
-    //retrofit
-    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
-    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
-    implementation "com.squareup.okhttp3:okhttp:$logging_interceptor_version"
-    implementation "com.squareup.okhttp3:okhttp-urlconnection:$logging_interceptor_version"
-    implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
-
-    //Paging 3
-    implementation "androidx.paging:paging-runtime-ktx:$paging_version"
-
-    //Coroutine
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 
 }
