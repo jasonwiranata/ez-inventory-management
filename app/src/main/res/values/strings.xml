@@ -5,4 +5,17 @@
     <string name="menu_settings">Settings</string>
     <string name="menu_sales">Sales</string>
     <string name="splash_image_preview">Splash Screen Icon</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="GMail">GMail</string>
+    <string name="login">LOGIN</string>
+    <string name="home">Home</string>
+    <string name="production">Production</string>
+    <string name="sales">Sales</string>
+    <string name="production_image">Icon Button Production</string>
+    <string name="sales_image">Icon Button Sales</string>
+    <string name="transaction">View Transactions</string>
+    <string name="inventory">View Inventory</string>
+    <string name="inventory_image">Icon Button Inventory</string>
+    <string name="transaction_image">Icon Button Transaction</string>
 </resources>
