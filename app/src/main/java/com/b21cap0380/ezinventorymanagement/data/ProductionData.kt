@@ -1,17 +1,25 @@
 package com.b21cap0380.ezinventorymanagement.data
 
+import com.google.firebase.database.Exclude
 import com.google.firebase.database.IgnoreExtraProperties
 import java.util.*
 
 @IgnoreExtraProperties
 data class ProductionData(
-    var productionId: Int,
-    var productionDate: Date,
-    var materialName: String,
-    var materialUsed: Int,
-    var materialUnit: String,
-    var productId: Int,
-    var productName: String,
-    var productQty: Int,
-    var productUnit: String
-)
+    var productionId: String? = "",
+    var productionDate: String? = "",
+    var materialName: String? = "",
+    var materialUsed: Int = 0,
+    var materialUnit: String? = "",
+){
+    @Exclude
+    fun toMap(): Map<String, Any?>{
+        return mapOf(
+            "productionId" to productionId,
+            "productionDate" to productionDate,
+            "materialName" to materialName,
+            "materialUsed" to materialUsed,
+            "materialUnit" to materialUnit
+        )
+    }
+}

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import com.b21cap0380.ezinventorymanagement.databinding.ActivitySplashScreenBinding
-import com.b21cap0380.ezinventorymanagement.ui.login.LoginActivity
+import com.b21cap0380.ezinventorymanagement.ui.home.HomeActivity
 
 class SplashScreenActivity : AppCompatActivity() {
     private var _binding: ActivitySplashScreenBinding? = null
@@ -17,7 +17,7 @@ class SplashScreenActivity : AppCompatActivity() {
         setContentView(binding.root)
         handler = Handler(mainLooper)
         handler.postDelayed({
-            val intent = Intent(this, LoginActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
         }, 2500)

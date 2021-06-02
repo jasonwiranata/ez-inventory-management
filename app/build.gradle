@@ -17,7 +17,6 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-        buildConfigField("String", "url", '"https://smart-arc-313102-default-rtdb.asia-southeast1.firebasedatabase.app/"')
         buildConfigField("String", "key", '"AIzaSyDfRXHohCCh9SR_lbDROfTcyK7asEpEzfo"')
         buildConfigField("String", "clientId", '"1099125151711-fg1iekdgvop2ht4oo98411nm57ocqn89.apps.googleusercontent.com"')
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -56,6 +55,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx:21.0.1'
     implementation 'com.google.firebase:firebase-appcheck-safetynet:16.0.0-beta01'
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
 
     //testing
     testImplementation "junit:junit:$junit_version"

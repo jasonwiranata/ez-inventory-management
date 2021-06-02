@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.b21cap0380.ezinventorymanagement">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".EZInventoryManagement"
@@ -13,7 +14,6 @@
         android:theme="@style/Theme.EZInventoryManagement">
         <activity android:name=".ui.transaction.TransactionActivity"/>
         <activity android:name=".ui.inventory.InventoryActivity" />
-        <activity android:name=".ui.login.LoginActivity" />
         <activity android:name=".ui.splashscreen.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
