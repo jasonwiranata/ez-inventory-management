@@ -3,7 +3,6 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
-    id 'dagger.hilt.android.plugin'
     id 'com.google.gms.google-services'
 }
 
@@ -66,19 +65,10 @@ dependencies {
     implementation "androidx.cardview:cardview:$cardview_version"
     implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
     implementation "com.google.android.material:material:$material_version"
-    implementation "com.github.bumptech.glide:glide:$glide_version"
-
-    //dagger-hilt
-    implementation "com.google.dagger:hilt-android:$hilt_version"
-    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
-    implementation "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
-    kapt "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
-    kaptAndroidTest "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
 
     //Lifecycle/ViewModel
     implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
     implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
-
-
+    
 }
