@@ -1,5 +1,5 @@
 "# ez-inventory-management" 
-"# ez-inventory-management is an application for small - medium scale metal industries to help them manage their production and transcation progress, we use realtime database provided by firebase to store the data. This is a project that we made for Google Bangkit Capstone Project Submission. At first we want to store the data at GCP using BigQuery Features, but it is easier to use the store the data inside firebase realtime database"
+"# ez-inventory-management is an application for small - medium scale metal industries to help them manage their production and transcation progress, we use realtime database provided by firebase to store the data. This is a project that we made for Google Bangkit Capstone Project Submission. At first we want to store the data at GCP using BigQuery Features, but we only know how to make an API to pull the data and dont know how to make an API to store the data in GCP BigQuery, so we decided to use firebase realtime database"
 
 
 1. What we had tried : 
@@ -13,4 +13,4 @@
     - Machine learning feature to analyze and give estimation on how much the company should produce certain product
 
 3. What can be done differently :
-    - Use GCP's BigQuery to store the data using the commited API code
+    - Use GCP's BigQuery to store and pull the data (The commited API can only pull the data from the GCP's BigQuery)
