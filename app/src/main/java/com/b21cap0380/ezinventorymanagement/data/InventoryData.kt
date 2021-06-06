@@ -9,14 +9,4 @@ data class InventoryData(
     var productName: String? = "",
     var productQty: Int = 0,
     var productUnit: String? = "",
-){
-    @Exclude
-    fun toMap(): Map<String, Any?>{
-        return mapOf(
-            "productId" to productId,
-            "productName" to productName,
-            "productQty" to productQty,
-            "productUnit" to productUnit
-        )
-    }
-}
+)

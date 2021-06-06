@@ -21,20 +21,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/ti_transactionId"
-            android:layout_width="200dp"
-            android:layout_height="45dp"
-            android:hint="@string/transactionId"
-            android:textSize="16sp"
-            android:autofillHints="@string/transactionId"
-            android:inputType="text"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="48dp"
-            app:layout_constraintBottom_toTopOf="@+id/ti_transactionDate"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView"
-            app:layout_constraintTop_toTopOf="parent"/>
+    <EditText
+        android:id="@+id/ti_transactionId"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:autofillHints="@string/transactionId"
+        android:hint="@string/transactionId"
+        android:inputType="text"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/ti_transactionDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"

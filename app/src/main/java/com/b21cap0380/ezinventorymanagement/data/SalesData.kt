@@ -5,7 +5,6 @@ import java.util.*
 
 @IgnoreExtraProperties
 data class SalesData(
-    var transactionId: Int,
     var transactionDate: Date,
     var productSold: Int,
 )
